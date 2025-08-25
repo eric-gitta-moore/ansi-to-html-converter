@@ -12,4 +12,5 @@ export default defineConfig({
   server: {
     allowedHosts: true,
   },
+  base: "/ansi-to-html-converter/",
 });

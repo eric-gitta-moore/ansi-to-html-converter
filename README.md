@@ -1,15 +1,15 @@
 
 # ANSI 双功能转换器
 
-一个功能强大的在线工具，支持ANSI转义序列与HTML、纯文本之间的双向转换。
+一个功能强大的在线工具，支持 ANSI 转义序列与 HTML、纯文本之间的双向转换。
 
 ## 🌟 功能特性
 
 ### 双向转换支持
-- **ANSI → HTML**：将包含ANSI颜色控制符的终端输出转换为彩色HTML显示
-- **ANSI → 纯文本**：去除所有ANSI颜色控制符，获得干净的纯文本
+- **ANSI → HTML**：将包含 ANSI 颜色控制符的终端输出转换为彩色 HTML 显示
+- **ANSI → 纯文本**：去除所有 ANSI 颜色控制符，获得干净的纯文本
 
-### 丰富的ANSI支持
+### 丰富的 ANSI 支持
 - ✅ 标准颜色（30-37, 40-47）：黑、红、绿、黄、蓝、洋红、青、白
 - ✅ 亮色系列（90-97, 100-107）：高亮度颜色变体
 - ✅ 样式控制：粗体（1m）、下划线（4m）、重置（0m）
@@ -27,7 +27,7 @@
 ## 🚀 快速开始
 
 ### 在线使用
-访问在线工具：[https://6aad36485527.aime-app.bytedance.net](https://6aad36485527.aime-app.bytedance.net)
+- **在线工具**：[https://eric-gitta-moore.github.io/ansi-to-html-converter](https://eric-gitta-moore.github.io/ansi-to-html-converter)
 
 ### 本地开发
 
@@ -60,11 +60,11 @@ pnpm run preview
 ### ANSI → HTML 转换
 
 1. **选择转换模式**：确保切换按钮显示为 "ANSI → HTML"
-2. **输入ANSI文本**：在左侧输入区域粘贴包含ANSI转义序列的文本
+2. **输入 ANSI 文本**：在左侧输入区域粘贴包含 ANSI 转义序列的文本
 3. **查看转换结果**：
    - **预览标签**：查看渲染后的彩色效果
-   - **HTML代码标签**：获取转换后的HTML源代码
-4. **复制结果**：点击复制按钮获取HTML代码
+   - **HTML 代码标签**：获取转换后的 HTML 源代码
+4. **复制结果**：点击复制按钮获取 HTML 代码
 
 #### 示例输入
 ```bash
@@ -83,7 +83,7 @@ pnpm run preview
 ### ANSI → 纯文本 转换
 
 1. **切换转换模式**：点击切换按钮，选择 "ANSI → 纯文本" 模式
-2. **输入ANSI文本**：在左侧输入区域粘贴包含ANSI转义序列的文本
+2. **输入 ANSI 文本**：在左侧输入区域粘贴包含 ANSI 转义序列的文本
 3. **查看转换结果**：在右侧查看去除颜色控制符后的纯文本
 4. **复制结果**：点击复制按钮获取纯文本
 
@@ -104,13 +104,13 @@ pnpm run preview
 ## 🎯 应用场景
 
 ### 开发者工具
-- **日志美化**：将终端日志转换为网页友好的HTML格式
+- **日志美化**：将终端日志转换为网页友好的 HTML 格式
 - **文档编写**：在技术文档中展示彩色的命令行输出
 - **博客文章**：在文章中嵌入美观的终端演示效果
 
 ### 运维场景  
-- **监控面板**：将服务器日志转换为Web界面显示
-- **报告生成**：创建包含彩色终端输出的HTML报告
+- **监控面板**：将服务器日志转换为 Web 界面显示
+- **报告生成**：创建包含彩色终端输出的 HTML 报告
 - **故障排查**：保存和分享带颜色的错误日志
 
 ### 教学培训
@@ -122,18 +122,18 @@ pnpm run preview
 
 ### 前端技术栈
 - **React 18**：现代化的用户界面框架
-- **TypeScript**：类型安全的JavaScript超集
+- **TypeScript**：类型安全的 JavaScript 超集
 - **Vite**：快速的构建工具和开发服务器
-- **Tailwind CSS**：实用优先的CSS框架
-- **shadcn/ui**：高质量的React组件库
+- **Tailwind CSS**：实用优先的 CSS 框架
+- **shadcn/ui**：高质量的 React 组件库
 - **Lucide React**：美观的图标库
 
 ### 核心算法
-- **ANSI解析器**：正则表达式匹配和状态管理
-- **纯文本处理**：高效的ANSI控制符移除算法
+- **ANSI 解析器**：正则表达式匹配和状态管理
+- **纯文本处理**：高效的 ANSI 控制符移除算法
 - **样式堆栈**：嵌套样式的正确处理
 
-## 📚 ANSI颜色代码参考
+## 📚 ANSI 颜色代码参考
 
 ### 标准颜色（前景色 30-37，背景色 40-47）
 | 颜色 | 前景色 | 背景色 | 十六进制值 |
@@ -150,7 +150,7 @@ pnpm run preview
 ### 亮色系列（前景色 90-97，背景色 100-107）
 | 颜色 | 前景色 | 背景色 | 十六进制值 |
 |------|--------|--------|------------|
-| 亮黑色(灰) | 90 | 100 | #7f7f7f |
+| 亮黑色 (灰) | 90 | 100 | #7f7f7f |
 | 亮红色 | 91 | 101 | #ff0000 |
 | 亮绿色 | 92 | 102 | #00ff00 |
 | 亮黄色 | 93 | 103 | #ffff00 |
@@ -166,9 +166,9 @@ pnpm run preview
 | 粗体 | 1m | 加粗文本 |
 | 下划线 | 4m | 添加下划线 |
 
-## 🛠️ 获取带颜色的Shell输出
+## 🛠️ 获取带颜色的 Shell 输出
 
-### 方法一：使用script命令
+### 方法一：使用 script 命令
 ```bash
 # 记录终端会话（包含颜色）
 script -c "your-command" /dev/null
@@ -191,11 +191,11 @@ grep --color=always "pattern" file.txt
 ```
 
 ### 方法三：直接复制粘贴
-大多数现代终端支持直接复制包含ANSI代码的文本，可以直接粘贴到转换器中使用。
+大多数现代终端支持直接复制包含 ANSI 代码的文本，可以直接粘贴到转换器中使用。
 
 ## 🤝 贡献指南
 
-欢迎提交Issue和Pull Request来改进这个项目！
+欢迎提交 Issue 和 Pull Request 来改进这个项目！
 
 ### 开发流程
 1. Fork 本仓库
@@ -216,27 +216,25 @@ grep --color=always "pattern" file.txt
 
 ## 🔗 相关链接
 
-- **在线工具**：[https://09855849e674.aime-app.bytedance.net](https://09855849e674.aime-app.bytedance.net)
-- **详细文档**：[ANSI ↔ HTML双向转换器使用指南](https://bytedance.larkoffice.com/docx/BgMvdr9t3ovOwjxXQybcLZk1nZg)
-- **ANSI标准参考**：[ANSI Escape Codes - Wikipedia](https://en.wikipedia.org/wiki/ANSI_escape_code)
-- **HTML颜色参考**：[MDN CSS Colors](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
+- **ANSI 标准参考**：[ANSI Escape Codes - Wikipedia](https://en.wikipedia.org/wiki/ANSI_escape_code)
+- **HTML 颜色参考**：[MDN CSS Colors](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
 
 ## ❓ 常见问题
 
 ### Q: 为什么某些颜色在转换后看起来不一样？
-A: ANSI标准只支持16种基础颜色，而HTML支持数百万种颜色。工具会将输入的颜色映射到最接近的ANSI标准颜色。
+A: ANSI 标准只支持 16 种基础颜色，而 HTML 支持数百万种颜色。工具会将输入的颜色映射到最接近的 ANSI 标准颜色。
 
 ### Q: 如何处理嵌套的样式？
 A: 工具支持嵌套样式的正确处理，会维护样式堆栈确保开闭标签匹配。
 
-### Q: 支持256色或RGB色彩模式吗？
-A: 目前版本专注于16色标准模式，未来版本会考虑支持扩展色彩模式。
+### Q: 支持 256 色或 RGB 色彩模式吗？
+A: 目前版本专注于 16 色标准模式，未来版本会考虑支持扩展色彩模式。
 
-### Q: 转换后的HTML可以直接在网页中使用吗？
-A: 是的，转换后的HTML使用标准的内联样式，可以直接嵌入到任何网页中。
+### Q: 转换后的 HTML 可以直接在网页中使用吗？
+A: 是的，转换后的 HTML 使用标准的内联样式，可以直接嵌入到任何网页中。
 
-### Q: ANSI去色功能支持哪些格式的转义序列？
-A: 支持所有常见格式：\x1b、\u001b、\033等，以及各种ANSI控制序列。
+### Q: ANSI 去色功能支持哪些格式的转义序列？
+A: 支持所有常见格式：\x1b、\u001b、\033 等，以及各种 ANSI 控制序列。
 
 ---
 
