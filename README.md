@@ -1,3 +1,4 @@
+**中文** | [English](README.en.md)
 
 # ANSI 双功能转换器
 
